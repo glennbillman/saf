@@ -11,9 +11,26 @@
     font-weight: bold
 }
 
+.wrapper {
+    border: 6px solid white;
+    display: absolute;
+}
+
 .small {
     width: 19%;
     font-size: 30px;
+}
+
+.side {
+    font-size: 70px !important;
+}
+
+.smallInner {
+    width: 98%;
+    height:98%;
+    font-size: 30px;
+    justify-content: center !important;
+    align-items: center !important;
 }
 
 .big {
@@ -31,7 +48,8 @@
 }
 
 .big:hover {
-    background-color: #20BDE280
+    background-color: #70FD56;
+    color: white;
 }
 
 .page {
@@ -41,6 +59,7 @@
 
 .col {
     align-items: center;
+    display: block;
     width: 19.5%;
     height:100%;
 }
@@ -64,85 +83,141 @@
     color: #3AD5C4;
 }
 
-.turquoise:hover {
+.turquoiseTop {
+    color: white;
     background-color: #3AD5C4;
-    color: white
+    display: none;
 }
 
 .purple {
     color: #AB53C4;
 }
 
-.purple:hover {
+.purpleTop{
     background-color: #AB53C4;
-    color:white
+    color:white;
+    display: none;
 }
 
 .yellow {
-    color: #ECFD36;
+    color: #F3F21F;
 }
 
-.yellow:hover {
-    background-color: #ECFD36;
+.yellowTop {
+    background-color: #F3F21F;
     color: white;
+    display: none;
 }
 
 .green {
     color: #70FD56;
 }
 
-.green:hover {
+.greenTop {
     background-color: #70FD56;
-    color:white
+    color:white;    
+    display: none;
 }
 
 .pink {
     color: #FD45A5;
 }
 
-.pink:hover {
+.pinkTop {
     background-color: #FD45A5;
-    color:white
+    color:white;
+    display: none;
 }
 
 .blue {
     color: #0A4BB8;
 }
 
-.blue:hover {
+.blueTop {
     background-color: #0A4BB8;
-    color: white
+    color: white;
+    display: none;
+}
+
+.bigTop {
+    width: 59%;
+    font-size: 120px;
+    background-color:#70FD56;
+    color: white;
+    display: none;
 }
 
 .orange {
     color: #FD8425;
 }
 
-.orange:hover {
+.orangeTop {
     background-color: #FD8425;
-    color:white
+    color:white;
+    display: none;
 }
 
 .solidgreen {
     background-color: #70FD56;
     font-size: 50px;
     color:white;
+    position: relative !important;
 }
 
 .solidpink {
     background-color: #FD45A5;
     font-size: 50px;
     color:white;
+    position: relative !important;
 }
 
 .solidblue{
     background-color: #0A4BB8;
     font-size: 50px;
     color:white;
+    position: relative !important;
 }
 
 .solidpurple{
     background-color: #AB53C4;
     font-size: 50px;
     color:white;
+    position: relative !important;
+}
+
+.wrapper:hover .turquoiseTop{
+    display: block;
+}
+
+.wrapper:hover .yellowTop{
+    display: block;
+}
+
+.wrapper:hover .greenTop{
+    display: block;
+}
+
+.wrapper:hover .pinkTop{
+    display: block;
+}
+
+.wrapper:hover .blueTop{
+    display: block;
+}
+
+.wrapper:hover .orangeTop{
+    display: block;
+}
+
+.wrapper:hover .bigTop{
+    display: block;
+}
+
+.link-spanner{
+    position:absolute; 
+    width:100%;
+    height:100%;
+    top:0;
+    left: 0;
+    z-index: 1;
 }
