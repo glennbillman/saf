@@ -7,14 +7,27 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: "Helvetica Neue", Helvetica;
+    font-weight: bold
 }
 
 .small {
-    width: 20%;
+    width: 19%;
+    font-size: 30px;
 }
 
 .big {
-    width: 60%;
+    width: 59%;
+    font-size: 120px;
+    color:#70FD56;
+
+}
+
+.inner {
+    width: 100%;
+    height: 45%;
+    font-size: 30px;
+
 }
 
 .big:hover {
@@ -26,45 +39,110 @@
     height: 100vh;
 }
 
-.row1 {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%; 
-    height: 16.66%;
+.col {
+    align-items: center;
+    width: 19.5%;
+    height:100%;
 }
 
-.row2 {
+.row {
     display: flex;
     flex-wrap: wrap;
     width: 100%; 
-    height: 16.66%;
+    height: 16.1%;
+}
+
+
+.row34 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%; 
+    height: 32.2%;
+}
+
+.turquoise {
+    color: #3AD5C4;
 }
 
 .turquoise:hover {
     background-color: #3AD5C4;
+    color: white
 }
 
+.purple {
+    color: #AB53C4;
+}
 
 .purple:hover {
     background-color: #AB53C4;
+    color:white
+}
+
+.yellow {
+    color: #ECFD36;
 }
 
 .yellow:hover {
     background-color: #ECFD36;
+    color: white;
+}
+
+.green {
+    color: #70FD56;
 }
 
 .green:hover {
     background-color: #70FD56;
+    color:white
+}
+
+.pink {
+    color: #FD45A5;
 }
 
 .pink:hover {
     background-color: #FD45A5;
+    color:white
 }
 
-.navy:hover {
+.blue {
+    color: #0A4BB8;
+}
+
+.blue:hover {
     background-color: #0A4BB8;
+    color: white
+}
+
+.orange {
+    color: #FD8425;
 }
 
 .orange:hover {
     background-color: #FD8425;
+    color:white
+}
+
+.solidgreen {
+    background-color: #70FD56;
+    font-size: 50px;
+    color:white;
+}
+
+.solidpink {
+    background-color: #FD45A5;
+    font-size: 50px;
+    color:white;
+}
+
+.solidblue{
+    background-color: #0A4BB8;
+    font-size: 50px;
+    color:white;
+}
+
+.solidpurple{
+    background-color: #AB53C4;
+    font-size: 50px;
+    color:white;
 }
