@@ -11,6 +11,8 @@
   overflow-x: hidden;
   width: 100%;
   height: 100%;
+  text-shadow: 0.5px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+
 }
 
 .smallInner:first-child {
@@ -92,11 +94,11 @@
 }
 
 .yellow {
-  color: #f3f21f;
+  color: #E9EF00;
 }
 
 .yellowTop {
-  background-color: #f3f21f;
+  background-color: #E9EF00;
   color: white;
   display: none;
 }

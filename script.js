@@ -54,11 +54,11 @@ function timer(date, id, alt) {
         displayTime(minutes) +
         ":" +
         displayTime(seconds);
+      }
 
       if (document.getElementById(id + "Text")) {
         document.getElementById(id + "Text").innerHTML = alt;
       }
-    }
   }, 1000);
 }
 
@@ -66,7 +66,7 @@ var ids = {
   r1c1: { id: "r1c1", dt: "May 26, 2021 07:14:00", text: "NEXT FULL MOON" },
   r1c3: {
     id: "r1c3",
-    dt: "May 18, 2021 22:00:00",
+    dt: "May 25, 2021 22:00:00",
     text: "CRUEL SUMMER EP 5 AIRS",
   },
   r1c4: {
