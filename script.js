@@ -48,7 +48,7 @@ function timer(date, id, alt) {
     } else {
       document.getElementById(id).innerHTML =
         displayTime(days) +
-        "  " +
+        "D " +
         displayTime(hours) +
         ":" +
         displayTime(minutes) +
@@ -92,7 +92,7 @@ var ids = {
     text: "ROBERT PATTINSON'S BIRTHDAY",
   },
   r5c1: { id: "r5c1", dt: "Sept 09, 2022 00:00:00", text: "AFTER WE FELL" },
-  r5c2: { id: "r5c2", dt: "May 21, 2021 00:00:00", text: "BUTTER" },
+  r5c2: { id: "r5c2", dt: "June 13, 2021 00:00:00", text: "BTS DEBUT ANNIVERSARY" },
   r5c3: { id: "r5c3", dt: "April 22, 2022 00:00:00", text: "EARTH DAY 2022" },
   r5c5: {
     id: "r5c5",
@@ -103,7 +103,7 @@ var ids = {
   r6c3: { id: "r6c3", dt: "MAY 23, 2021 18:03:41", text: "NEXT FAMILY DINNER" },
   r6c4: { id: "r6c4", dt: "Feb 19, 2022 00:00:00", text: "PISCES SZN" },
   r6c5: { id: "r6c5", dt: "Jan 1, 2022 00:00:00", text: "NYE 2022" },
-  release: { id: "release", dt: "May 22, 2021 15:00:00", text: "SAF COMEBACK" },
+  release: { id: "release", dt: "May 22, 2021 16:00:00", text: "SAF COMEBACK" },
 };
 
 for (key in ids) {

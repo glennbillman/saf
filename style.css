@@ -8,9 +8,6 @@
   justify-content: center;
   font-family: "Helvetica Neue", Helvetica;
   font-weight: bold;
-  overflow-x: hidden;
-  width: 100%;
-  height: 100%;
   padding: 5px;
 }
 
@@ -19,7 +16,7 @@
 }
 
 .small {
-  width: 19%;
+  width: 20%;
   font-size: 30px;
 }
 
@@ -34,7 +31,7 @@
 }
 
 .big {
-  width: 59%;
+  width: 60%;
   font-size: 120px;
   color: #70fd56;
 }
@@ -53,7 +50,7 @@
 
 .col {
   display: block;
-  width: 19%;
+  width: 20%;
   height: 100%;
 }
 
@@ -93,11 +90,11 @@
 }
 
 .yellow {
-  color: #E9EF00;
+  color: #e9ef00;
 }
 
 .yellowTop {
-  background-color: #E9EF00;
+  background-color: #e9ef00;
   color: white;
   display: none;
 }
@@ -133,7 +130,7 @@
 }
 
 .bigTop {
-  width: 59%;
+  width: 60%;
   font-size: 120px;
   background-color: #70fd56;
   color: white;
@@ -182,12 +179,12 @@
   position: relative;
 }
 
-.wrapper:hover .turquoiseTop, 
+.wrapper:hover .turquoiseTop,
 .wrapper:hover .yellowTop,
 .wrapper:hover .greenTop,
-.wrapper:hover .pinkTop, 
-.wrapper:hover .blueTop, 
-.wrapper:hover .orangeTop, 
+.wrapper:hover .pinkTop,
+.wrapper:hover .blueTop,
+.wrapper:hover .orangeTop,
 .wrapper:hover .bigTop {
   display: flex;
   position: absolute;
@@ -214,7 +211,7 @@
 .tv-wrapper {
   position: relative;
   width: 50%;
-} 
+}
 
 .green-tv {
   width: 650px;
@@ -236,4 +233,20 @@
   position: absolute;
   top: 68px;
   left: 73px;
+}
+
+/* ART PAGE */
+
+.art-page {
+  width: 100%;
+}
+
+.gallery {
+  width: 100%;
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
