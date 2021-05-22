@@ -48,7 +48,7 @@ function timer(date, id, alt) {
     } else {
       document.getElementById(id).innerHTML =
         displayTime(days) +
-        "D " +
+        "d " +
         displayTime(hours) +
         ":" +
         displayTime(minutes) +
@@ -92,7 +92,7 @@ var ids = {
     text: "ROBERT PATTINSON'S BIRTHDAY",
   },
   r5c1: { id: "r5c1", dt: "Sept 09, 2022 00:00:00", text: "AFTER WE FELL" },
-  r5c2: { id: "r5c2", dt: "June 13, 2021 00:00:00", text: "BTS DEBUT ANNIVERSARY" },
+  r5c2: { id: "r5c2", dt: "June 13, 2021 00:00:00", text: "BTS 8TH ANNIVERSARY" },
   r5c3: { id: "r5c3", dt: "April 22, 2022 00:00:00", text: "EARTH DAY 2022" },
   r5c5: {
     id: "r5c5",

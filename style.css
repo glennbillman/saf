@@ -250,3 +250,9 @@
   -webkit-user-select: none;
   -ms-user-select: none;
 }
+
+/* MERCH PAGE */
+
+.t-shirt {
+  width: 400px;
+}
