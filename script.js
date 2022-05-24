@@ -103,7 +103,7 @@ var ids = {
   r6c3: { id: "r6c3", dt: "MAY 23, 2021 18:03:41", text: "NEXT FAMILY DINNER" },
   r6c4: { id: "r6c4", dt: "Feb 19, 2023 00:00:00", text: "PISCES SZN" },
   r6c5: { id: "r6c5", dt: "Jan 1, 2023 00:00:00", text: "NYE 2023" },
-  release: { id: "release", dt: "June 18, 2021 16:00:00", text: "SAF COMEBACK" },
+  release: { id: "release", dt: "June 18, 2022 16:00:00", text: "SAF COMEBACK" },
 };
 
 for (key in ids) {
