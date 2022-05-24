@@ -74,13 +74,13 @@ var ids = {
     dt: "July 5, 2021 9:15:32",
     text: "BACK TO SCHOOL SALES BEGIN",
   },
-  r1c5: { id: "r1c5", dt: "Sept 23, 2021 00:00:00", text: "LIBRA SZN" },
+  r1c5: { id: "r1c5", dt: "Sept 23, 2022 00:00:00", text: "LIBRA SZN" },
   r2c1: {
     id: "r2c1",
-    dt: "Dec 12, 2021 03:02:28",
+    dt: "April 8, 2024 03:02:28",
     text: "TOTAL SOLAR ECLIPSE",
   },
-  r2c2: { id: "r2c2", dt: "July 23, 2021 07:00:00", text: "TOKYO OLYMPICS" },
+  r2c2: { id: "r2c2", dt: "July 26, 2024 07:00:00", text: "TOKYO OLYMPICS" },
   r2c3: {
     id: "r2c3",
     dt: "Sept 3, 2022 15:37:12",
@@ -88,22 +88,22 @@ var ids = {
   },
   r2c4: {
     id: "r2c4",
-    dt: "May 13, 2022 23:22:25",
+    dt: "May 13, 2023 23:22:25",
     text: "ROBERT PATTINSON'S BIRTHDAY",
   },
   r5c1: { id: "r5c1", dt: "Sept 09, 2022 00:00:00", text: "AFTER WE FELL" },
-  r5c2: { id: "r5c2", dt: "June 13, 2021 00:00:00", text: "BTS 8TH ANNIVERSARY" },
-  r5c3: { id: "r5c3", dt: "April 22, 2022 00:00:00", text: "EARTH DAY 2022" },
+  r5c2: { id: "r5c2", dt: "June 13, 2022 00:00:00", text: "BTS 9TH ANNIVERSARY" },
+  r5c3: { id: "r5c3", dt: "April 22, 2023 00:00:00", text: "EARTH DAY 2023" },
   r5c5: {
     id: "r5c5",
-    dt: "June 7, 2021 20:00:00",
-    text: "BACHELORETTE SZN 17 AIRS",
+    dt: "July 11, 2021 20:00:00",
+    text: "BACHELORETTE SZN 19 AIRS",
   },
   r6c2: { id: "r6c2", dt: "Dec 1, 2021 12:01:21", text: "12 01 21 12:01:12" },
   r6c3: { id: "r6c3", dt: "MAY 23, 2021 18:03:41", text: "NEXT FAMILY DINNER" },
-  r6c4: { id: "r6c4", dt: "Feb 19, 2022 00:00:00", text: "PISCES SZN" },
-  r6c5: { id: "r6c5", dt: "Jan 1, 2022 00:00:00", text: "NYE 2022" },
-  release: { id: "release", dt: "May 22, 2021 16:00:00", text: "SAF COMEBACK" },
+  r6c4: { id: "r6c4", dt: "Feb 19, 2023 00:00:00", text: "PISCES SZN" },
+  r6c5: { id: "r6c5", dt: "Jan 1, 2023 00:00:00", text: "NYE 2023" },
+  release: { id: "release", dt: "June 18, 2021 16:00:00", text: "SAF COMEBACK" },
 };
 
 for (key in ids) {
