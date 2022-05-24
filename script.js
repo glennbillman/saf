@@ -80,7 +80,7 @@ var ids = {
     dt: "April 8, 2024 03:02:28",
     text: "TOTAL SOLAR ECLIPSE",
   },
-  r2c2: { id: "r2c2", dt: "July 26, 2024 07:00:00", text: "TOKYO OLYMPICS" },
+  r2c2: { id: "r2c2", dt: "July 26, 2024 07:00:00", text: "PARIS OLYMPICS" },
   r2c3: {
     id: "r2c3",
     dt: "Sept 3, 2022 15:37:12",
