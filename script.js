@@ -63,7 +63,7 @@ function timer(date, id, alt) {
 }
 
 var ids = {
-  r1c1: { id: "r1c1", dt: "June 14, 2021 07:14:00", text: "NEXT FULL MOON" },
+  r1c1: { id: "r1c1", dt: "June 14, 2022 07:14:00", text: "NEXT FULL MOON" },
   r1c3: {
     id: "r1c3",
     dt: "JUNE 4, 2022 10:10:10",
@@ -71,7 +71,7 @@ var ids = {
   },
   r1c4: {
     id: "r1c4",
-    dt: "July 5, 2021 9:15:32",
+    dt: "July 5, 2022 9:15:32",
     text: "BACK TO SCHOOL SALES BEGIN",
   },
   r1c5: { id: "r1c5", dt: "Sept 23, 2022 00:00:00", text: "LIBRA SZN" },
@@ -96,11 +96,11 @@ var ids = {
   r5c3: { id: "r5c3", dt: "April 22, 2023 00:00:00", text: "EARTH DAY 2023" },
   r5c5: {
     id: "r5c5",
-    dt: "July 11, 2021 20:00:00",
+    dt: "July 11, 2022 20:00:00",
     text: "BACHELORETTE SZN 19 AIRS",
   },
   r6c2: { id: "r6c2", dt: "Dec 1, 2021 12:01:21", text: "12 01 21 12:01:12" },
-  r6c3: { id: "r6c3", dt: "MAY 23, 2021 18:03:41", text: "NEXT FAMILY DINNER" },
+  r6c3: { id: "r6c3", dt: "June 3, 2022 18:03:41", text: "NEXT FAMILY DINNER" },
   r6c4: { id: "r6c4", dt: "Feb 19, 2023 00:00:00", text: "PISCES SZN" },
   r6c5: { id: "r6c5", dt: "Jan 1, 2023 00:00:00", text: "NYE 2023" },
   release: { id: "release", dt: "June 18, 2022 16:00:00", text: "SAF COMEBACK" },
